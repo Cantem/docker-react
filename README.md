@@ -2,6 +2,9 @@
 
 This project was created with `create-react-app` and `docker`. It's a simple pipeline designed to deploy to AWS Elastic Beanstalks.
 
+![image](https://github.com/Cantem/docker-react/assets/36113728/40d64fc0-8299-4a4f-8dfd-33fd990598e4)
+
+
 ## Deployment to Elastic Beanstalk
 
 This project uses github actions to deploy to AWS EB. Configuration can be found in `.github/workflows/deploy.yaml`. Configuration has been based on [beanstalk-deploy](https://github.com/einaregilsson/beanstalk-deploy). Deployment is triggered by a code merge to `main` branch.
